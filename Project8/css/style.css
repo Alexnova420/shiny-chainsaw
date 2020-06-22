@@ -1,0 +1,241 @@
+/**{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}//обнуление стилей
+
+*,*:before, *after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: boreder-box;
+}
+
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+
+nav, footer, header, aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: : 100%;
+	font-size: 14px;
+	line-height: 1;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:vizited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1, h2, h3, h4, h5, h6{font-size: inherit;font-weight: 400;}
+/*------------------------------*/
+
+body{
+	text-shadow: 1px 1px 10px white;
+	font-size: 20px;
+	font-weight: 700;
+	background-size: 1920px;
+	background-attachment: fixed;
+}
+li{
+	text-indent: 20px;
+	line-height: 30px;
+}
+p{
+	text-align: justify;
+	line-height: 50px;
+}
+.header_class{
+	color: white;	
+	background: url("img/bg/header.jpg") no-repeat top center;
+}
+.choose_ul{
+	padding-left: 1000px;
+}
+.img_planets{
+	width: 300px;
+	height: 300px;
+}
+.p_sun_name{
+	font-size: 30px;
+	font-weight: 1000;
+	color: orange;
+}
+.p_sun_desc{
+	color: orange;
+}
+.sun_ul{
+	color: orange;
+}
+.p_mercury_name{
+	font-size: 30px;
+	text-align: right;
+	color: #beada1;
+	text-shadow: 1px 1px 10px black;
+}
+.p_mercury_desc{
+	color: #beada1;
+	text-shadow: 1px 1px 10px black;
+}
+.mercury_ul{
+	color: #beada1;
+	text-shadow: 1px 1px 10px black;
+	padding-left: 1250px;
+}
+.p_venus_name{
+	font-size: 30px;
+	text-align: left;
+	color: #ff4d00;
+	text-shadow: 1px 1px 10px black;
+}
+.p_venus_desc{
+	color: #ff4d00;
+	text-shadow: 1px 1px 10px black;
+}
+.venus_ul{
+	color: #ff4d00;
+	text-shadow: 1px 1px 10px black;
+}
+.p_earth_name{
+	font-size: 30px;
+	text-align: right;
+	color: #0000ff;
+	text-shadow: 1px 1px 10px white;
+}
+.p_earth_desc{
+	color: #0000ff;
+	text-shadow: 1px 1px 10px white;
+}
+.earth_ul{
+	color: #0000ff;
+	text-shadow: 1px 1px 10px white;
+	padding-left: 1240px;
+}
+.p_mars_name{
+	font-size: 30px;
+	text-align: left;
+	color: #ff8000;
+	text-shadow: 1px 1px 10px black;
+}
+.p_mars_desc{
+	color: #ff8000;
+	text-shadow: 1px 1px 10px black;
+}
+.mars_ul{
+	color: #ff8000;
+	text-shadow: 1px 1px 10px black;
+}
+.p_jupiter_name{
+	font-size: 30px;
+	text-align: right;
+	color: #f2ddc6;
+	text-shadow: 1px 1px 10px black;
+}
+.p_jupiter_desc{
+	color: #f2ddc6;
+	text-shadow: 1px 1px 10px black;
+}
+.jupiter_ul{
+	color: #f2ddc6;
+	text-shadow: 1px 1px 10px black;
+	padding-left: 1240px;
+}
+.p_saturn_name{
+	font-size: 30px;
+	text-align: left;
+	color: #f2e8c9;
+	text-shadow: 1px 1px 10px black;
+}
+.p_saturn_desc{
+	color: #f2e8c9;
+	text-shadow: 1px 1px 10px black;
+}
+.saturn_ul{
+	color: #f2e8c9;
+	text-shadow: 1px 1px 10px black;
+}
+.p_uran_name{
+	font-size: 30px;
+	text-align: right;
+	color: #a8d8ff;
+	text-shadow: 1px 1px 10px black;
+}
+.p_uran_desc{
+	color: #a8d8ff;
+	text-shadow: 1px 1px 10px black;
+}
+.uran_ul{
+	color: #a8d8ff;
+	text-shadow: 1px 1px 10px black;
+	padding-left: 1240px;
+}
+.p_neptunet_name{
+	font-size: 30px;
+	text-align: left;
+	color: #0f93ff;
+	text-shadow: 1px 1px 10px black;
+}
+.p_neptunet_desc{
+	color: #0f93ff;
+	text-shadow: 1px 1px 10px black;
+}
+.neptunet_ul{
+	color: #0f93ff;
+	text-shadow: 1px 1px 10px black;
+}
+a{
+	text-decoration: none;
+	outline: none;
+	display: inline-block;
+	color: white;
+	padding: 5px 5px;
+	margin: 5px 5px;
+	border-radius: 10px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	background-size: 200% auto;
+	box-shadow: 0 0 20px rgba(0,0,0,.1);
+	transition: .4s;
+}
+.a_nice_sun{
+	background-image: linear-gradient(to right, #ffa500 0%, #ff0000 51%, #ffa500 100%);
+}
+.a_nice_mercury{
+	background-image: linear-gradient(to right, #beada1 0%, #756051 51%, #beada1 100%);
+}
+.a_nice_venus{
+	background-image: linear-gradient(to right, #ff4d00 0%, #661f00 51%, #ff4d00 100%);
+}
+.a_nice_earth{
+	background-image: linear-gradient(to right, #0000ff 0%, #000066 51%, #0000ff 100%);
+}
+.a_nice_mars{
+	background-image: linear-gradient(to right, #ff8000 0%, #663300 51%, #ff8000 100%);
+}
+.a_nice_jupiter{
+	background-image: linear-gradient(to right, #f2ddc6 0%, #d69249 51%, #f2ddc6 100%);
+}
+.a_nice_saturn{
+	background-image: linear-gradient(to right, #f2e8c9 0%, #d6b44d 51%, #f2e8c9 100%);
+}
+.a_nice_uran{
+	background-image: linear-gradient(to right, #a8d8ff 0%, #0f93ff 51%, #a8d8ff 100%);
+}
+.a_nice_neptunet{
+	background-image: linear-gradient(to right, #0f93ff 0%, #004175 51%, #0f93ff 100%);
+}
+a:hover {background-position: right center;}
+
+.p_buttons{
+	text-align: left;
+	font-size: 12px;
+	font-weight: 800;
+}
